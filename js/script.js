@@ -104,3 +104,14 @@ Set to unfold in the vibrant educational landscape on policy and governance, PIC
 
 // Console Log to Ensure JS is Connected
 console.log('Earth Club Website Script Loaded');
+
+document.querySelectorAll('.read-more-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const post = button.previousElementSibling;
+        const moreText = post.querySelector('.more-text');
+        const isExpanded = moreText.style.display === 'inline';
+
+        moreText.style.display = isExpanded ? 'none' : 'inline';
+        button.textContent = isExpanded ? 'Read More' : 'Read Less';
+    });
+});

@@ -294,3 +294,66 @@ body {
     vertical-align: middle;
 }
 
+.blog-section {
+    padding: 3rem 1rem;
+    background-color: #f5f5f5;
+}
+
+.blog-section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.blog-post {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.blog-post h3 {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.post-summary {
+    margin-top: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.more-text {
+    display: none;
+}
+
+.read-more-btn {
+    background-color: #007B5E;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.facebook-section {
+    padding: 3rem 1rem;
+    background-color: #eef6f0;
+    text-align: center;
+}
+
+.facebook-section h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    color: #2c3e50;
+}
