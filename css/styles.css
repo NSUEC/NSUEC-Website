@@ -286,3 +286,11 @@ body {
     transform: rotate(-45deg) translate(5px, -5px);
 }
 
+
+//new styles
+
+.social-links li a img {
+    margin-right: 8px;
+    vertical-align: middle;
+}
+

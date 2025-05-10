@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Earth Club | HOME</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Earth Club | North South University</title>
+        
+        <!-- Meta Description (important for search engine previews) -->
+        <meta name="description" content="Earth Club of North South University is a student-led organization in Bangladesh dedicated to promoting environmental awareness, sustainability, and action for the planet.">
+        
+        <!-- Keywords (optional, not heavily used by Google, but helpful) -->
+        <meta name="keywords" content="Earth Club, North South University, NSU, Bangladesh, Environment, Sustainability, Student Club, Awareness, Climate Action">
+        
+        <!-- Author -->
+        <meta name="author" content="Earth Club of North South University">
+    
+        <!-- Open Graph / Facebook -->
+        <meta property="og:title" content="Earth Club | North South University">
+        <meta property="og:description" content="Join Earth Club of NSU in making a positive impact on the environment through awareness and action.">
+        <meta property="og:image" content="https://yourdomain.com/images/social-preview.png"> <!-- Replace with actual hosted image URL -->
+        <meta property="og:url" content="https://yourdomain.com/"> <!-- Replace with your real domain -->
+        <meta property="og:type" content="website">
+    
+        <!-- Twitter Cards -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Earth Club | North South University">
+        <meta name="twitter:description" content="NSU Earth Club - Raising environmental awareness and driving climate action in Bangladesh.">
+        <meta name="twitter:image" content="https://yourdomain.com/images/social-preview.png"> <!-- Replace with actual hosted image URL -->
+    
+        <!-- Favicon -->
+        <link rel="icon" href="images/logo-Favicon.png" type="image/png">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    
 <body>
     <!-- Header Section -->
     <header class="header">
@@ -49,16 +77,48 @@
 
     
     <!-- Footer Section -->
-    <footer class="footer">
-        <div class="container">
-            <p>Contact Us:</p>
-            <ul class="social-links">
-                <li><a href="mailto:earthclub@nsu.edu">Email: earthclub@nsu.edu</a></li>
-                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-            </ul>
+<footer class="footer">
+    <div class="container">
+        <!-- Logo -->
+        <div class="footer-logo">
+            <a href="index.html" aria-label="Earth Club homepage">
+                <img src="images/logo.png" alt="Earth Club Logo" style="height: 60px;">
+            </a>
         </div>
-    </footer>
+
+        <!-- Contact Info -->
+        <p>Contact Us:</p>
+        <ul class="social-links">
+            <li>
+                <a href="mailto:earthclub@nsu.edu" aria-label="Email Earth Club at NSU">
+                    <img src="images/gmail.png" alt="Mail" style="height: 24px; vertical-align: middle;">
+                    earthclub@nsu.edu
+                </a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/nsuec" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
+                    <img src="images/communication.png" alt="Facebook" style="height: 24px; vertical-align: middle;">
+                    Facebook
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/earthclubnsu" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram profile">
+                    <img src="images/social.png" alt="Instagram" style="height: 24px; vertical-align: middle;">
+                    Instagram
+                </a>
+            </li>
+        </ul>
+
+        <!-- Copyright -->
+        <p>&copy; <span id="year"></span> Earth Club, North South University. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Auto-update year -->
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 
 
     <!-- JavaScript for Hamburger Menu -->
